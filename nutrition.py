@@ -80,6 +80,12 @@ def query():
     collection_link = database_link + '/colls/{0}'.format('azuredb')
     collection = client.ReadCollection( collection_link )
 
+    #Displaying images by specifyinf Calorie greater than a value
+    #query = {'query' : 'SELECT d.id,d.image from doc d where d.ingredient.Salt >= 0 AND d.calories >= 100'’}
+    
+    #Displaying images by specifying a calorie range
+    #query = {'query' : 'SELECT d.id,d.image,d.type,d.calories from doc d where d.calories BETWEEN 10 AND 30’}
+             
     # Displaying all images with names
     # query = {'query': 'SELECT s.image,s.id FROM deepali s'}
 
