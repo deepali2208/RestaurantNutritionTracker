@@ -2,11 +2,12 @@ RestaurantNutritionTracker
 
 This application uses Microsoft Azure Cosmos DB to find calories,ingredients and fat content available in dishes present in a restaurant.
 
-STEPS TO USE MICROSOFT AZURE COSMOS DB:
+  Azure Web Application is used to host the application and Azure Cosmos DB as the NoSQL database.
 
-1. Enter credentials.
+STEPS TO FOLLOW:
 
-2. Initialize documentdb client.
+  1. Sign up for Microsoft Azure account and deploy the application using Flaskapp.
 
-3. Create database and collection.
+  2. After choosing Azure Cosmos DB as the database, create a database 'deepalidb' and collection 'azuredb'.
 
+  3. Run the program by browsing to " http://<app name>.azurewebsites.net ".
